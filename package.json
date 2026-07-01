@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-final-api-productos",
+  "version": "1.0.0",
+  "description": "API Rest para la administracion de productos con autenticacion JWT y Firestore",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "firebase",
+    "firestore",
+    "jwt",
+    "api-rest"
+  ],
+  "author": "Lucas Rama",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
